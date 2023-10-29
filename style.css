@@ -1,0 +1,206 @@
+* {
+    background-color: pink;
+    background-image: url('cloud-and-rainbow-cute-cartoon-pycad2.jpg');
+    background-repeat: repeat-x;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    margin: 0;
+
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: none;
+    margin: 0;
+    font-size: 24px;
+}
+
+
+
+button {
+    background-image: none;
+    /* border-radius: 40%; */
+    border: none;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+main {
+    background-image: none;
+    background-color: none;
+    /* padding: 100px; */
+
+}
+
+.container {
+    /* padding: 9px;
+    border-radius: 50%;
+    /* Makes the container oval */
+
+    /* display: inline-block; */
+    background-image: none;
+
+}
+
+div {
+    background-image: none;
+}
+
+
+
+img {
+    width: 260px;
+    height: 240px;
+    border-radius: 12%;
+
+}
+
+button img:hover {
+    opacity: 0.5;
+}
+
+button#exit {
+    padding-left: 280px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.piccy {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+}
+
+.piccy img {
+    height: 300px;
+    background-image: none;
+
+}
+
+div #wins {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #0c0b0c 0%,
+            #026c17 29%,
+            #ff1361 67%,
+            #001eff 100%);
+    background-size: 200% auto;
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 16px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+
+
+@media(max-width:400px) {
+    .piccy img {
+        height: 250px;
+        background-image: none;
+
+    }
+
+    button#exit {
+        padding-left: 1px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+    }
+
+    .piccy {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+
+    }
+
+    .piccy img {
+        height: 140px;
+        background-image: none;
+
+    }
+
+    img {
+        width: 140px;
+        height: 100px;
+        border-radius: 15%;
+        display: inline-block;
+
+    }
+
+    div.container {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 97vh;
+        margin: 0;
+
+    }
+
+
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 760px) {
+
+    img {
+        width: 120px;
+        height: 140px;
+        border-radius: 15%;
+        display: inline-block;
+
+    }
+
+    button#exit {
+        padding-left: 150px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+    }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1160px) {
+
+    img {
+        width: 230px;
+        height: 140px;
+        border-radius: 15%;
+        display: inline-block;
+
+    }
+
+    button#exit {
+        padding-left: 250px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+    }
+}
