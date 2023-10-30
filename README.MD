@@ -1,6 +1,7 @@
 # Rock-Paper-Scissors Game
 
 This is a simple web-based Rock-Paper-Scissors game implemented in JavaScript. You can play the game against the computer and keep track of your score.
+This code was inspired by keeping children in mind and dedicating it to a younger audience
 
 ## How to Play
 
